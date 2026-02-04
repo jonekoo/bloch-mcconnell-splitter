@@ -1,3 +1,6 @@
+% Copyright (c) 2026 Jouni Karjalainen
+% Licensed under the MIT License. See LICENSE file in the project root for details.
+
 classdef BlochMcConnellSplitter < handle
     % This class implements a matrix representation and solver for
     % Bloch-McConnell equations of a three-pool system. The class uses the
@@ -163,4 +166,5 @@ methods(Static)
 
 
 end  % methods(Static)
+
 end  % classdef
