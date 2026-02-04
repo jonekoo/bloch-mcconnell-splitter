@@ -1,0 +1,7 @@
+# Development dependencies for bloch-mcconnell-splitter
+numpy>=1.25
+pytest>=7.0
+black>=24.0
+flake8>=6.0
+isort>=5.12
+coverage>=7.0

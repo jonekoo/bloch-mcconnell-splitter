@@ -1,0 +1,89 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-wheel-metadata/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter
+.ipynb_checkpoints
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# MATLAB
+# Backup and autosave files
+*.asv
+*.m~
+~$*
+# Compiled/executable MEX files
+*.mex*
+*.mexa64
+*.mexw32
+*.mexw64
+# MATLAB data and figures
+*.mat
+*.fig
+*.mlx
+*.mltbx
+# Simulink build folders
+*/slprj/
+# MATLAB app / project files
+*.prj
+*.mlappinstall
+
+# Misc
+.env
+.env.*
+profile_default/
+
+# Keep Git from tracking generated Python bytecode or MATLAB compilations
+

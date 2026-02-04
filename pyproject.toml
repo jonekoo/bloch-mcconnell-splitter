@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bloch-mcconnell-splitter"
+version = "0.1.0"
+description = "Python translation of Bloch-McConnell splitter"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "Converted by GitHub Copilot" }]
+dependencies = ["numpy>=1.25"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+exclude = ["tests*"]
