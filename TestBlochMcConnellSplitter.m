@@ -1,3 +1,6 @@
+% Copyright (c) 2026 Jouni Karjalainen
+% Licensed under the MIT License. See LICENSE file in the project root for details.
+
 classdef TestBlochMcConnellSplitter < matlab.unittest.TestCase
 
     properties
@@ -222,5 +225,6 @@ classdef TestBlochMcConnellSplitter < matlab.unittest.TestCase
             
         end
     end
+
 
 end
